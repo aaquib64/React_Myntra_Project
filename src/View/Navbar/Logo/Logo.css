@@ -1,0 +1,23 @@
+.Navbar-Container{
+    background-color:rgb(247, 247, 247);
+    margin: 0px;
+    padding: 0px;  
+}
+
+.Navbar-Container{
+    height: 70px;
+    width:  100vw;
+   
+}
+.Nav-Tags{
+    font-size: 12px; 
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding-top: 15px;   
+}
+.Nav-icon{
+    margin-right: 40px;
+    padding-top: 15px; 
+}

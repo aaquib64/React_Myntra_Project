@@ -1,0 +1,18 @@
+.Nav-Tags{
+    font-size: 12px; 
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding-top: 15px;   
+}
+.Nav-Tag-All{
+    margin-right: 30px;
+    margin-top: 8px;
+    
+}
+.Anchor-tag{
+    color: black;
+    text-decoration: none;
+    
+}

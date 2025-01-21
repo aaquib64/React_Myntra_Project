@@ -1,0 +1,218 @@
+[
+    {
+        "product_id":4,
+        "name":"Men's T-shirt",
+        "type":"Casual",
+        "brand":"Puma",
+        "price":1099.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Polo T-shirt with good fit ",
+        "image":"https://hummel.net.in/cdn/shop/files/3430000-7480.png?v=1735901854"
+    },
+    {
+        "product_id":5,
+        "name":"Men's T-shirt",
+        "type":"Casual",
+        "brand":"Adidas",
+        "price":999.00,
+        "Colors":["Green","White","Red"],
+        "material":"Cotton",
+        "description":"comfortable T-shirt",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20231128/CvMH/6565fe1bafa4cf41f5a65f15/-473Wx593H-469456232-black-MODEL.jpg"
+    },
+    {
+        "product_id":6,
+        "name":"Men's T-shirt",
+        "type":"Casual",
+        "brand":"Adidas",
+        "price":1299.00,
+        "Colors":["Green","White","Red"],
+        "material":"polyster",
+        "description":"stylish T-shirt for everyday wear ",
+        "image":"https://rukminim2.flixcart.com/image/850/1000/kfoapow0-0/t-shirt/o/h/q/xl-cw0710white-adidas-original-imafw2k5fs29qaxu.jpeg?q=90&crop=false"
+    },
+
+    {
+        "product_id":8,
+        "name":"Men's T-shirt",
+        "type":"Casual",
+        "brand":"Nike",
+        "price":1000.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"Cotton",
+        "description":"Blended T-Shirt for gym ",
+        "image":"https://i.ebayimg.com/images/g/1TgAAOSw6PFmGtF4/s-l1200.png"
+    },
+    {
+        "product_id":9,
+        "name":"Men's T-shirt",
+        "type":"Casual",
+        "brand":"Reebok",
+        "price":1129.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"Cotton",
+        "description":"Active wear T-shirt ",
+        "image":"https://i8.amplience.net/i/jpl/jd_676518_a"
+    },
+    {
+        "product_id":14,
+        "name":"Men's T-shirt",
+        "type":"Active Wear",
+        "brand":"Hrx",
+        "price":1099.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://www.distacart.com/cdn/shop/products/25c93bb2-53e0-4acd-81e7-b18d0b4979191607929571617-HRX-by-Hrithik-Roshan-Men-Tshirts-4521607929569387-1_1280x.jpg?v=1705401829"
+    },
+    {
+        "product_id":15,
+        "name":"Men's T-shirt",
+        "type":"Active Wear",
+        "brand":"Adidas",
+        "price":1599.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":" comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://dynamic.zacdn.com/NnPe3dSEuIgepjwy9ngWZlBwYhg=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/adidas-9401-0331736-1.jpg"
+    },
+    {
+        "product_id":16,
+        "name":"Men's Track",
+        "type":"Active Wear",
+        "brand":"Adidas",
+        "price":1599.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":" comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20221209/72yP/63934e0cf997ddfdbdca4221/-473Wx593H-460960586-blackwhite-MODEL.jpg"
+    },
+    {
+        "product_id":17,
+        "name":"Men's Track",
+        "type":"Active Wear",
+        "brand":"Nike",
+        "price":2000.00,
+        "Colors":["Black","White","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://nimbuscluster.blob.core.windows.net/server01/hrx/product/productImage-Zwhyhxf9MugWcosEO0Nz2-1662611110"
+    },
+
+    
+    {
+        "product_id":18,
+        "name":"Men's Jeans",
+        "type":"Casual",
+        "brand":"Mufti",
+        "price":3999.00,
+        "Colors":["Black","White","Blue"],
+        "material":"Denim",
+        "description":" comfortable and perfect fit for casual wear ",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmaFqdapiK-l7KAtWqXEri4rBaUI-vXht10Q&s"
+    },
+    {
+        "product_id":19,
+        "name":"Men's Jeans",
+        "type":"Casual",
+        "brand":"Jack & Jones",
+        "price":2999.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Denim",
+        "description":" comfortable and perfect fit for casual wear ",
+        "image":"https://www.iconicindia.com/cdn/shop/files/473Wx593H-465063898-grey-MODEL6.png?v=1735902912"
+    },
+    {
+        "product_id":20,
+        "name":"Men's Jeans",
+        "type":"Casual",
+        "brand":"Levi's",
+        "price":4999.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Denim",
+        "description":" comfortable and perfect fit for casual wear ",
+        "image":"https://w7.pngwing.com/pngs/293/432/png-transparent-jeans-denim-mens-jeans-denim-jeans-mens-jeans.png"
+    },
+    {
+        "product_id":21,
+        "name":"Men's Jeans",
+        "type":"Casual",
+        "brand":"Spyker",
+        "price":3999.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Denim",
+        "description":" comfortable and perfect fit for casual wear ",
+        "image":"https://www.iconicindia.com/cdn/shop/files/473Wx593H-465063898-grey-MODEL.png?v=1735902912"
+    },
+
+    
+    {
+        "product_id":22,
+        "name":"Men's Shirt",
+        "type":"Checks",
+        "brand":"Jack & Jones",
+        "price":1599.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://e7.pngegg.com/pngimages/550/700/png-clipart-graphy-t-shirt-gingham-lumberjack-shirt-t-shirt-textile-tartan-thumbnail.png"
+    },
+    {
+        "product_id":23,
+        "name":"Men's Shirt",
+        "type":"Solid",
+        "brand":"Jack & Jones",
+        "price":1199.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://www.pngall.com/wp-content/uploads/5/Long-Sleeve-Shirt-PNG.png"
+    },
+    {
+        "product_id":24,
+        "name":"Men's Shirt",
+        "type":"Stripped",
+        "brand":"US Polo",
+        "price":1599.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://uspoloassn.in/cdn/shop/products/6_09e5cd81-8fdc-4f85-a319-232e4b43932b.jpg"
+    },
+    {
+        "product_id":25,
+        "name":"Men's Shirt",
+        "type":"Denim",
+        "brand":"Mufti",
+        "price":2299.00,
+        "Colors":["Black","Grey","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://5.imimg.com/data5/BS/EI/MY-7149332/men-27s-designer-shirt.png"
+    },
+    
+    {
+        "product_id":26,
+        "name":"Men's Shoes",
+        "type":"Sneaker",
+        "brand":"Red Tape",
+        "price":4599.00,
+        "Colors":["Black","White","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/24965724/2024/9/26/9229f77f-b814-4683-9e92-e51df16cb36f1727354215280-Red-Tape-Men-Memory-Foam-Insole-Sneakers-9561727354214846-1.jpg"
+    },
+    {
+        "product_id":26,
+        "name":"Men's Shoes",
+        "type":"Sneaker",
+        "brand":"Adidas",
+        "price":1999.00,
+        "Colors":["Black","White","Blue"],
+        "material":"Cotton",
+        "description":" Stylish and perfect fit for casual wear ",
+        "image":"https://redtape.com/cdn/shop/files/RSL0492A_2_jpg.jpg?v=1725016455&width=1946"
+    }
+
+]

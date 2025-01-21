@@ -1,0 +1,82 @@
+[
+    {
+        "product_id":1,
+        "name":"Women Kurti",
+        "type":"Ethic Wear",
+        "brand":"Libas",
+        "price":1599.99,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Embroidered kurta for everyday wear ",
+        "image":"https://www.maharaniwomen.com/wp-content/uploads/2024/08/193122-1-Hand-embroidered-short-womens-kurti.png"
+    },
+
+    {
+        "product_id":2,
+        "name":"Women Dress",
+        "type":"Ethic Wear",
+        "brand":"BIBA",
+        "price":2999.00,
+        "Colors":["Blue","White","Red"],
+        "material":"Polyster",
+        "description":"stylish dress for Party wear ",
+        "image":"https://surtisilk.com/cdn/shop/files/Untitleddesign_6_352x.png?v=1697471781"
+    },
+    {
+        "product_id":3,
+        "name":"Women Kurti",
+        "type":"Ethic Wear",
+        "brand":"IQRA",
+        "price":1799.00,
+        "Colors":["Blue","White","Red"],
+        "material":"Chickenkari",
+        "description":"stylish kurti best for festival ",
+        "image":"https://n-img1.junaroad.com/uiproducts/20164000/pri_175_p-1691605708.jpg"
+    },
+    {
+        "product_id":10,
+        "name":"Women's T-shirt",
+        "type":"Active Wear",
+        "brand":"Hrx",
+        "price":899.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://lowpricesaree.in/wp-content/uploads/2022/01/hrx-by-hrithik-roshan-women-jet-black-rapid-dry-running-t-shirt.jpg"
+    },
+    {
+        "product_id":11,
+        "name":"Women's T-shirt",
+        "type":"Active Wear",
+        "brand":"Puma",
+        "price":1299.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://www.distacart.com/cdn/shop/products/18e71447-bf41-44be-9e34-ea41fd805ac41652520712582-HRX-by-Hrithik-Roshan-Women-Lifestyle-Maroon-Rapid-Dry-Typog-6_1280x.jpg?v=1705407220"
+    },
+    {
+        "product_id":12,
+        "name":"Women's Track",
+        "type":"Active Wear",
+        "brand":"Adidas",
+        "price":1899.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://thebrandtadka.com/images_inventory_products/multiple_images/45347_4.jpg"
+    },
+    {
+        "product_id":13,
+        "name":"Women's Track",
+        "type":"Active Wear",
+        "brand":"Hrx",
+        "price":999.00,
+        "Colors":["Green","Grey","Red"],
+        "material":"polyster",
+        "description":"comfortable and rapid dry T-shirt for gym wear ",
+        "image":"https://rukminim2.flixcart.com/image/850/1000/kmxsakw0/track-pant/2/o/u/xs-12896196-hrx-by-hrithik-roshan-original-imagfpxupgyuhgkj.jpeg?q=90&crop=false"
+    }
+
+
+]

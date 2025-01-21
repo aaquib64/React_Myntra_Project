@@ -1,0 +1,65 @@
+.Navbar-Container{
+    background-color:rgb(247, 247, 247);
+    margin: 0px;
+    padding: 0px;  
+}
+
+.Navbar-Container{
+    height: 70px;
+    width:100vw;
+   
+}
+.Nav-icon{
+    margin-right: 40px;
+    padding-top: 15px; 
+}
+.Nav-Tags{
+    font-size: 12px; 
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding-top: 15px;   
+}
+.Nav-Tag-1{
+    margin-right: 30px; 
+    margin-left: 20px;
+    margin-top: 8px;
+   
+}
+.Nav-Tag-All{
+    margin-right: 30px;
+    margin-top: 8px;
+    
+}
+.Anchor-tag{
+    color: black;
+    text-decoration: none;
+    
+}
+.Navbar-Searchbar{
+    background-color: rgb(247, 247, 247);
+    display:flex;  
+}
+.Navbar-Searchbar-tag{
+    margin-left: 150px;
+
+}
+.Navbar-Searchbar-input{
+    background-color: rgb(234, 233, 233); 
+    width: 450px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+
+}
+.Navbar-Searchbar-icon{
+    border: 1px;
+    margin-left: 10px;
+    
+}
+.Nav-Tag-Right{
+    margin-left: 50px;
+    margin-top: 8px;
+}

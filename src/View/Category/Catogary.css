@@ -1,0 +1,21 @@
+.Category-Container-1{
+    display: flex; 
+    justify-content: center;
+    
+}
+.Category-Container-div{
+    margin-left: 20px;
+}
+.Category-Container-2{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 40px;
+}
+.Category-Img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+
+

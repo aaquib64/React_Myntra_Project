@@ -1,0 +1,103 @@
+[
+    {
+        "product_id":1,
+        "name":"Home Living Sofa",
+        "type":"Sofa",
+        "brand":"FabIndia",
+        "price":19999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Wooden",
+        "description":"Home Living Room Sofa ",
+        "image":"https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "product_id":2,
+        "name":"Wooden Sofa Cum Bed",
+        "type":"Bed",
+        "brand":"Klotthe",
+        "price":22999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Wooden",
+        "description":"Foldable Wooden Sofa Cum Bed  ",
+        "image":"https://woodentwist.com/cdn/shop/products/81OptnHiLbL._SL1500.jpg?v=1689859426"
+    },
+    {
+        "product_id":3,
+        "name":"Floor Lamp",
+        "type":"Lamp",
+        "brand":"Harison",
+        "price":1399.00,
+        "Colors":["Black","White","Red"],
+        "material":"Wooden",
+        "description":"Wooden Floor Lamp ",
+        "image":"https://images.woodenstreet.de/image/data/home-decors/lamps-lighting/floor-lamps/beige-wooden-floor-lamp-with-white-shade/beige-wooden-floor-lamp-with-white-shade/1.jpg"
+    },
+    {
+        "product_id":4,
+        "name":"Bathroom Set",
+        "type":"Bath",
+        "brand":"Market 99",
+        "price":799.00,
+        "Colors":["Black","White","Red"],
+        "material":"Palstic",
+        "description":"Stylish White Bathroom Set ",
+        "image":"https://market99.com/cdn/shop/files/WW10005977-1.1.jpg?v=1706598014"
+    },
+    {
+        "product_id":5,
+        "name":"Tea Set",
+        "type":"Kitchen",
+        "brand":"Ceramica",
+        "price":999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Ceramic",
+        "description":"Premium Tea Set With Kattle ",
+        "image":"https://hommology.com/cdn/shop/files/picwish_8811535271_image1.jpg?v=1727895451"
+    },
+    {
+        "product_id":6,
+        "name":" Wall Sticker ",
+        "type":"Sticker ",
+        "brand":"Radium Mela",
+        "price":499.00,
+        "Colors":["Black","White","Red"],
+        "material":"Acryllic",
+        "description":"Balck Acryllic Wall Sticker ",
+        "image":"https://m.media-amazon.com/images/I/61V10ONOVBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "product_id":7,
+        "name":"Biege Carpet",
+        "type":" Carpet",
+        "brand":"Luxerius",
+        "price":4999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Polyster",
+        "description":" Beautifull Biege Polyster Carpet ",
+        "image":"https://rukminim2.flixcart.com/image/850/1000/kwzap3k0/carpet-rug/z/m/g/152-60-modern-quality-carpet-trending-design-hand-woven-fluffy-original-imag9jdxhb5zurgp.jpeg?q=90&crop=false"
+    },
+    {
+        "product_id":8,
+        "name":"Glass Showpiece",
+        "type":"Showpiece",
+        "brand":"AGRO",
+        "price":1650.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"A Beautifull Showpiece for Bedroom ",
+        "image":"https://nestasia.in/cdn/shop/files/decor_2_d9faf754-6dd1-4d55-9ee4-4f2824695dc6.jpg?v=1700922132&width=600"
+    },
+    {
+        "product_id":9,
+        "name":" Crafted Mirror",
+        "type":"Mirror",
+        "brand":"Mira",
+        "price":1999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Miroor",
+        "description":"Desined Mirror",
+        "image":"https://i.pinimg.com/736x/7b/f7/16/7bf716f7ad49fa8def9300bece244f05.jpg"
+    }
+
+
+]

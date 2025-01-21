@@ -1,0 +1,28 @@
+.Card{
+ width: 400px;
+ height: 200px;
+ display: inline-block;
+ justify-content: center;
+ margin: 40px 40px;
+ background-color: rgb(241, 237, 237);
+ border-radius: 20px;
+ 
+}
+.img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    
+    
+}
+.Heading{
+    color: rgb(224, 7, 7);margin-top: 20px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.location{
+    font-family: cursive;
+}
+.city{
+    font-family: cursive;
+}

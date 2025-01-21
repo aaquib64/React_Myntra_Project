@@ -1,0 +1,57 @@
+[
+    {
+        "product_id":1,
+        "name":"MiCellar Pure",
+        "type":"Makup",
+        "brand":"Lakme",
+        "price":899.00,
+        "Colors":["Black","White","Red"],
+        "material":"Watrer",
+        "description":"Blue Color Fish Gown for girl ",
+        "image":"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/25013072/2023/9/19/725aa932-62e1-4110-98ba-0eddcae698571695099425365FoundationLakmeWomenFoundationLakmeWomenFoundationLakmeWomen1.jpg"
+    },
+    {
+        "product_id":2,
+        "name":"Eau de Perfume",
+        "type":"Perfume",
+        "brand":"LakCarlton London",
+        "price":1299.00,
+        "Colors":["Black","White","Red"],
+        "material":"Glass",
+        "description":"Carlton Londan Eau de Perfume for Women ",
+        "image":"https://carltonlondon.co.in/cdn/shop/files/2_cbbb36aa-4b9a-4d05-8945-0bbcebdaf7a0.jpg?v=1705483116"
+    },
+    {
+        "product_id":3,
+        "name":"Foundation Kit",
+        "type":"Makup",
+        "brand":"NYX",
+        "price":1899.00,
+        "Colors":["Black","White","Red"],
+        "material":"Watrer",
+        "description":"Professional Foundation Kit ",
+        "image":"https://palette.tatacliq.com/_next/image?url=https%3A%2F%2Fimg.tatacliq.com%2Fimages%2Fi18%2F%2F658Wx734H%2FMP000000022690426_658Wx734H_202406221111071.jpeg&w=3840&q=75"
+    },
+    {
+        "product_id":4,
+        "name":"Garnier Face Wash",
+        "type":"FaceWash",
+        "brand":"Garnier",
+        "price":899.00,
+        "Colors":["Black","White","Red"],
+        "material":"Watrer",
+        "description":"Turbo Bright Garnier Face Wash",
+        "image":"https://m.media-amazon.com/images/I/41qlpafXP1L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "product_id":5,
+        "name":"Rediance Serum",
+        "type":"Serum",
+        "brand":"Lakme",
+        "price":1199.00,
+        "Colors":["Black","White","Red"],
+        "material":"Watrer",
+        "description":"Perfect Rediance Serum",
+        "image":"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19768932/2023/10/6/e124a1da-4eea-4262-9480-85321f917f211696595984076-Lakme-Absolute-Perfect-Radiance-Face-Serum-with-98-Pure-Niac-1.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+.Nav-Tags{
+    font-size: 12px; 
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding-top: 15px;   
+}
+.Navbar-Searchbar{
+    background-color: rgb(247, 247, 247);
+    display:flex;  
+}
+.Navbar-Searchbar-tag{
+    margin-left: 150px;
+
+}
+.Navbar-Searchbar-input{
+    background-color: rgb(234, 233, 233); 
+    width: 450px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+
+}
+.Navbar-Searchbar-icon{
+    border: 1px;
+    margin-left: 10px;
+    
+}

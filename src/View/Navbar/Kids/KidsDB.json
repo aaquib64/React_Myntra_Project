@@ -1,0 +1,101 @@
+[
+    {
+        "product_id":1,
+        "name":"Gown",
+        "type":"Gown",
+        "brand":"Li & Li",
+        "price":1999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Blue Color Fish Gown for girl ",
+        "image":"https://liandli.in/cdn/shop/files/LICD118_5_-min_800x.jpg?v=1695182482"
+    },
+    {
+        "product_id":2,
+        "name":"Winter Wear",
+        "type":"Dress",
+        "brand":"Leo",
+        "price":999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Woolen",
+        "description":"Grey Boy Kids Winter Cloths ",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2023/9/347076875/KV/KX/NX/23831093/kids-winter-clothes-wholesalers.jpg"
+    },
+    {
+        "product_id":3,
+        "name":"Frogg",
+        "type":"Gown",
+        "brand":"KIDO",
+        "price":1599.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Kid's Cloth ",
+        "image":"https://olliesplace.com.au/cdn/shop/files/Girls.jpg?v=1722994848&width=550"
+    },
+    {
+        "product_id":4,
+        "name":"Dress",
+        "type":"Gown",
+        "brand":"Froggy",
+        "price":2999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":" girl's Party Dress ",
+        "image":"https://www.cutedoll.in/cdn/shop/files/3077A-R.jpg?v=1715855475"
+    },
+    {
+        "product_id":5,
+        "name":"Dress",
+        "type":"Gown",
+        "brand":"Li & Li",
+        "price":1799.00,
+        "Colors":["Black","White","Red"],
+        "material":"Woolen",
+        "description":"Stripped Winter Boy Kid's ",
+        "image":"https://images-cdn.ubuy.co.in/669266098f7e63229a44108f-children-baby-boys-clothes-autumn-long.jpg"
+    },
+    {
+        "product_id":6,
+        "name":"Boy Kurta",
+        "type":"Kurta",
+        "brand":"First Calss",
+        "price":1099.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Boy Kurta",
+        "image":"https://houseofekam.com/cdn/shop/files/Blue-Floral-Boys-Pathani-Kurta-with-Pyjama-Set-Kidswear-House-of-Ekam_400x.jpg?v=1734979278"
+    },
+    {
+        "product_id":7,
+        "name":"Baby Cloth",
+        "type":"Kurta",
+        "brand":"Aster",
+        "price":899.00,
+        "Colors":["Black","White","Red"],
+        "material":"Wool",
+        "description":"Organic Baby Cloths ",
+        "image":"https://www.asterandoak.com.au/cdn/shop/files/Aster_Oak_12thDec1638_d65d4552-0de1-44a9-93cd-ca94eb087595.png?v=1726531019"
+    },
+    {
+        "product_id":8,
+        "name":"Kids Wear",
+        "type":"Kurta",
+        "brand":"Diadam",
+        "price":2299.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Blue Color Fish Gown for girl ",
+        "image":"https://diademstore.com/cdn/shop/files/dark-green-floral-printed-lehenga_180x@2x.jpg?v=1729506532"
+    },
+    {
+        "product_id":9,
+        "name":"Boy Traditional Wear",
+        "type":"Kurta",
+        "brand":"House of Libas",
+        "price":3999.00,
+        "Colors":["Black","White","Red"],
+        "material":"Cotton",
+        "description":"Blue Color Fish Gown for girl ",
+        "image":"https://2.wlimg.com/product_images/bc-full/2024/7/12204832/boy-kids-wear-dress-1720519923-7494732.jpg"
+    }
+]

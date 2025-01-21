@@ -1,0 +1,12 @@
+.Nav-Tags{
+    font-size: 12px; 
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding-top: 15px;   
+}
+.Nav-Tag-Right{
+    margin-left: 50px;
+    margin-top: 8px;
+}
