@@ -1,10 +1,11 @@
 import react from "react";
 import "./Login.css";
 import LoginImage from "../../Images/login.PNG";
+import { Link } from "react-router-dom";
 const Login = () => {
     return(
         <div>
-             <div className="Container" >
+             <div className="" >
                 {/* <div className="sticky-xl-top">
                     <nav className="Navbar-Container navbar navbar-expand-lg " >
                             <div className="container-fluid">
@@ -65,13 +66,13 @@ const Login = () => {
 
                         <h6 className="Login-Heading" >Login or Signup</h6>
                             <div className="Input-Container">
-                                    <span className="Span"> +91  |</span>
-                                    <input className="Input" type=""  placeholder="Mobile Number"/>
+                                    <span className="Span"> +91</span>
+                                    <input className="Input" type="text"  placeholder="Mobile Number"/>
                             </div>
                             <div>
                             <button className="btn1" type="button"> Continue </button>
 
-                            <h5 className="Signup"> Don't have an account? <a href="http://127.0.0.1:5500/Sign%20up.html" className="Tag"> Sign up </a> </h5>
+                            <h5 className="Signup"> Don't have an account? <Link to="/Signup" className="Tag"> Sign up </Link> </h5>
                             </div>
                     </div>
 
