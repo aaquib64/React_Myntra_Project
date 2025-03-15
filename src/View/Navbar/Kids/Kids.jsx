@@ -1,16 +1,16 @@
-import React from 'react';
-import './Kids.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Kids.css";
+import { Link } from "react-router-dom";
 
-const Kids = () =>{
-    return(
-        <div>
-             
-                 <li className="Nav-Tag-All">
-                        <Link to="/KidsProduct" aria-current="page"  className="Anchor-tag">KIDS</Link>
-                 </li>
-              
-        </div>
-    )
-}
+const Kids = () => {
+  return (
+    <div>
+      <li className="nav-item">
+        <Link to="/KidsProduct" className="nav-link active fw-bold text-small" aria-current="page">
+          KIDS
+        </Link>
+      </li>
+    </div>
+  );
+};
 export default Kids;

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Restro.css";
+import "./Restro.css";                // import css from file
 
-export default function Restro (){
+export default function Restro () {
 
     const RestroList = [
         {
@@ -48,6 +48,7 @@ export default function Restro (){
                 <h3 className="Heading"> {data.name}</h3>
                 <p className="location"> {data.location}</p>
                 <h4 className="city"> {data.City}</h4> 
+                {/* <button>Check</button> */}
                 <hr/>
             </div>
         )}   

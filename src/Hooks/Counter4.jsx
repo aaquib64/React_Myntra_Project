@@ -12,7 +12,7 @@ function Counter4 () {        //functional component
                                      //values to the array
             id: numbers.length,      //stores length of the array 
             value: Math.floor(Math.random() * 10) + 1  //random() generates random values as decimal , so * 10. 
-                                                       //Floor()  rounds off the values
+                                                       //Floor()  rounds off the values at min
         },
        ]);
    };

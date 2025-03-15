@@ -2,15 +2,15 @@ import React from "react";
 import "./HomeAndLiving.css";
 import { Link } from "react-router-dom";
 
-const HomeAndLiving = () =>{
-    return(
-        <div>
-              
-                    <li className="Nav-Tag-All">
-                        <Link to="/HomeProduct" aria-current="page" className="Anchor-tag">HOME & LIVING</Link>
-                    </li>
-               
-        </div>
-    )
-}
+const HomeAndLiving = () => {
+  return (
+    <div>
+      <li className="nav-item">
+        <Link to="/HomeProduct" className="nav-link active fw-bold text-small" aria-current="page">
+          HOME & LIVING
+        </Link>
+      </li>
+    </div>
+  );
+};
 export default HomeAndLiving;

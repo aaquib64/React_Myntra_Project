@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MenProductsList.css";
 
 const MenProductsList = (prodlist) => {
   // Functional component that accepts the products data passed to it
   // custom method, called from the view in the render() below
+  const [count, setCount] = useState(0);
   const renderList = ({ prodlist }) => {
     // temp argument that recieves the data passed to this component by product component
 
@@ -31,20 +32,32 @@ const MenProductsList = (prodlist) => {
                 <p className="P-Discription"> {data.description}</p>
                 <hr />
                 <h4 className="P-price">Rs. {data.price}</h4>
-              </div>
-              <button className="Add-button">ADD TO CART</button>
+              </div >
+             
             </div>
+           
+            <div className="Button-Container">
+            <button onClick={()=> setCount(count-1)} className="Add-button"> - </button>
+            <button className="Add-button"> {count} </button>
+            <button onClick={()=> setCount(count+1)} className="Add-button"> + </button>
           </div>
+          </div>
+          
         );
+        
       });
+     
     }
   };
   return (
+      
     <div className="container">
       <div className="row">
         {renderList(prodlist)}{" "}
         {/* Calls the above custom function to render the data in the view */}
+        
       </div>
+      
     </div>
   );
 };

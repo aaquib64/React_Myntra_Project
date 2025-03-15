@@ -32,14 +32,19 @@
 .P-price{
     text-align: center;
 }
+.Button-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
 .Add-button{
     background-color: rgb(255, 80, 109);
-    margin-top: 10px;
     color: white;
     font-family: sans-serif;
     border: none;
-    margin-left: 70px;  
-    border-radius: 5px;
+    border-radius: 
+
 }
 /* .title{
     font-size: 40px;

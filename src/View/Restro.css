@@ -6,7 +6,12 @@
  margin: 40px 40px;
  background-color: rgb(241, 237, 237);
  border-radius: 20px;
+ text-align: center;
  
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
 }
 .img{
     width: 400px;

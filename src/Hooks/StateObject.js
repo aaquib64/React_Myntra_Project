@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const StateObject = () => {
   const [OTT, setOTT] = useState({
-    WebSeries: "Money Heist",
+    WebSeries: "Money Heist",             // Object as a Initial value
     Platform: "Amazon"
   });
 

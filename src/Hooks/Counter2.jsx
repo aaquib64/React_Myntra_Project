@@ -1,6 +1,6 @@
 // import React,{useState} from 'react'; //imports useState
 
-// function Counter2() {//functional component
+// function Counter2 () {                   //functional component
   
 //    const [count,setCount] = useState(0); 
 //    //const [new State,setter function ] = useState(initial state); 
@@ -35,9 +35,10 @@ const Counter = () =>{
    return(
       <div>
            <h1>useState Hook</h1>
-           <h2>you {count} times</h2>
+           
            <button onClick={() => setCount(count+1)}>Increment{count}</button>
-           <button onClick={() => setCount(count+1)}>Decrement</button>
+           <h2>you {count} times</h2>
+           <button onClick={() => setCount(count-1)}>Decrement</button>
       </div>
    )
 }

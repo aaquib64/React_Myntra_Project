@@ -1,4 +1,4 @@
-.Nav-Tag-1{
+/* .Nav-Tag-1{
     margin-right: 30px; 
     margin-left: 20px;
     margin-top: 8px;
@@ -16,4 +16,9 @@
     color: black;
     text-decoration: none;
     
-}
+} */
+
+.text-small{
+    font-size: 13px;
+    font-family: cursive;
+ }

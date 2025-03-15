@@ -4,7 +4,7 @@ import axios from "axios";
 function Axios (){
     const [albums, setAlbums] = useState([]);   // useState
 
-    useEffect(() => {     // replace componentsDidMount ,componentsDidUpdate & componentsDidUnmount that
+    useEffect(() => {     // replace componentsDidMount ,componentsDidUpdate & componentsWillUnmount that
                          // exist in a class component, for this functional component
                        // execute once component is injected into the page
     axios.get('https://jsonplaceholder.typicode.com/albums')  // send GET request to the REST url for data
@@ -19,7 +19,7 @@ return(
     <ul>
         {albums.map((album) => {
                 return (
-                <li key = {album.id}> {album.id} {album.title} </li>
+                <li key = {album.id}>  {album.id} {album.title} </li>
                 );
             })
         }

@@ -1,4 +1,4 @@
-.Nav-Tags{
+/* .Nav-Tags{
     font-size: 12px; 
     font-weight: 500;
     list-style-type: none;
@@ -15,4 +15,8 @@
     color: black;
     text-decoration: none;
     
-}
+} */
+ .text-small{
+    font-size: 13px;
+    font-family: cursive;
+ }

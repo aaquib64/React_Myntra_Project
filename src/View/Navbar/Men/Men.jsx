@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 const Men = () =>{
     return(
         <div>
+            <li className="nav-item breadcrumb-item">
+                <Link to="/MenProducts" className="nav-link active fw-bold text-small" aria-current="page" >
+                  MEN
+                </Link>
+              </li>
             
-               <li  className="Nav-Tag-1">
-                    <Link to="/MenProducts" aria-current="page"  className="Anchor-tag"> MEN </Link>
-               </li>
-             
         </div>
     )
 }

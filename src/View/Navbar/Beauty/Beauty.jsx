@@ -2,15 +2,19 @@ import React from "react";
 import "./Beauty.css";
 import { Link } from "react-router-dom";
 
-const Beauty = () =>{
-    return(
-        <div>
-              
-                    <li className="Nav-Tag-All">
-                        <Link to="/BeautyProduct" aria-current="page" className="Anchor-tag">BEAUTY</Link>
-                    </li>
-             
-        </div>
-    )
-}
+const Beauty = () => {
+  return (
+    <div>
+      <li className="nav-item">
+        <Link
+          to="/BeautyProduct"
+          className="nav-link active fw-bold text-small"
+          aria-current="page"
+        >
+          BEAUTY
+        </Link>
+      </li>
+    </div>
+  );
+};
 export default Beauty;
