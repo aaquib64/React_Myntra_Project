@@ -9,7 +9,7 @@ const Restaurants = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5408/products")
+      .get("https://myntra-server-b529.onrender.com/products")
       .then((response) => {
         console.log("API Response:", response.data); // Debugging
         if (Array.isArray(response.data)) {
@@ -62,13 +62,11 @@ const Restaurants = () => {
                   <p className="fw-bold text-primary text-center">
                     ${prod.price}
                   </p>
-                  
+
                   <button className="btn btn-danger mt-auto btn-sm">
-                  SHOP NOW
+                    SHOP NOW
                   </button>
-                  <Link to="/">
-                 
-                  </Link>
+                  <Link to="/"></Link>
                 </div>
               </div>
             </div>

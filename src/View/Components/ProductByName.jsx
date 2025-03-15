@@ -10,7 +10,7 @@ const Restaurants = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5408/products/${names}`)
+      .get(`https://myntra-server-b529.onrender.com/products/${names}`)
       .then((response) => {
         console.log("API Response:", response.data); // Debugging
         if (Array.isArray(response.data)) {
