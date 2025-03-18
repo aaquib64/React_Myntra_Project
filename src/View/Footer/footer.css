@@ -1,0 +1,120 @@
+/* Footer Container */
+.footer-container {
+    width: 100%;
+    background-color: rgb(244, 240, 240);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Wraps content on smaller screens */
+    gap: 20px;
+}
+
+
+.container-1,
+.container-2 {
+    flex: 1; 
+    min-width: 250px;
+    justify-items: center;
+}
+
+/* Footer Headings */
+.heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Footer List */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    font-size: 14px;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.list li:hover {
+    color: #ff6600;
+}
+
+/* Play Store & App Store Buttons */
+.button-container {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.store-btn {
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.store-btn:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+/* Copyright Section */
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .container-1,
+    .container-2 {
+        align-items: center;
+    }
+
+    .button-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .list li {
+        font-size: 13px;
+    }
+
+    .store-btn {
+        width: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 16px;
+    }
+
+    .list li {
+        font-size: 12px;
+    }
+
+    .store-btn {
+        width: 120px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}

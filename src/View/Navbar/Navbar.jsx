@@ -10,8 +10,8 @@ import Beauty from "./Beauty/Beauty";
 
 let Navbar = () => {
   return (
-    <div>
-      <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary py-3">
+    <div className="sticky-top">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
         <div className="container-fluid">
           <Logo />
           <button

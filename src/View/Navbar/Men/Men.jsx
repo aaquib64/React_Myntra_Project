@@ -1,16 +1,19 @@
 import React from "react";
 import "./Men.css";
 import { Link } from "react-router-dom";
-const Men = () =>{
-    return(
-        <div>
-            <li className="nav-item breadcrumb-item">
-                <Link to="/MenProducts" className="nav-link active fw-bold text-small" aria-current="page" >
-                  MEN
-                </Link>
-              </li>
-            
-        </div>
-    )
-}
+const Men = () => {
+  return (
+    <div>
+      <li className="nav-item breadcrumb-item">
+        <Link
+          to="/getAllRestaurantByGender/Men"
+          className="nav-link active fw-bold text-small"
+          aria-current="page"
+        >
+          MEN
+        </Link>
+      </li>
+    </div>
+  );
+};
 export default Men;

@@ -6,7 +6,7 @@ const HomeAndLiving = () => {
   return (
     <div>
       <li className="nav-item">
-        <Link to="/HomeProduct" className="nav-link active fw-bold text-small" aria-current="page">
+        <Link to="/getAllRestaurantByGender/Unisex" className="nav-link active fw-bold text-small" aria-current="page">
           HOME & LIVING
         </Link>
       </li>

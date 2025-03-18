@@ -1,9 +1,9 @@
 import React from "react";
 import './SlidingCard.css';
-import card1 from '../../Images/card1.PNG';
-import Card2 from '../../Images/Card2.PNG';
-import Card3 from '../../Images/Card3.PNG';
-import card4 from '../../Images/card4.PNG';
+import card1 from '../../Images/SlidingNew1.PNG';
+import Card2 from '../../Images/SlidingNew2.PNG';
+import Card3 from '../../Images/SlidingNew3.PNG';
+import card4 from '../../Images/SlidingNew4.PNG';
 
 const SlidingCard = () =>{
     return(
