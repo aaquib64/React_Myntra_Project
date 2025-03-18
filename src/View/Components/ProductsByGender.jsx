@@ -11,7 +11,7 @@ const Restaurants = () => {
   useEffect(() => {
     axios
       .get(
-        `https://myntra-server-b529.onrender.com/getAllRestaurantByGender/${gender}`
+        `https://myntra-server-b529.onrender.com/${gender}`
       )
       .then((response) => {
         console.log("API Response:", response.data); // Debugging

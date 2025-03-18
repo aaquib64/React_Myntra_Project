@@ -6,7 +6,7 @@ const Men = () => {
     <div>
       <li className="nav-item breadcrumb-item">
         <Link
-          to="/getAllRestaurantByGender/Men"
+          to="/Men"
           className="nav-link active fw-bold text-small"
           aria-current="page"
         >
