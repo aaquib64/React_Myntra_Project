@@ -8,11 +8,7 @@ import ProductsByName from "./View/Components/ProductByName";
 import Login from "./View/Login/Login";
 import Signup from "./View/Signup/Signup";
 import ProductDetails from "./View/Components/ProductDetails";
-import Coupon from "./View/CouponCard/Coupon";
-import SlidingCard from "./View/SlidingCard/SlidingCard";
-import LongCard from "./View/LongCard/LongCard";
-import Category from "./View/Category/Category";
-import Footer from "./View/Footer/Footer";
+
 
 function App() {
   return (
@@ -23,13 +19,13 @@ function App() {
        <Navbar/>
      
         <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/Home" element={<Home/>} />
           <Route path="/products" element={<Products />} />
-          <Route path="/products/:names" element={<ProductsByName />} />
-          <Route path="/getAllRestaurantByGender/:gender" element={<ProductsByGender />}/>
+          <Route path="/:gender/:names" element={<ProductsByName />} />
+          <Route path="/productByGender/:gender" element={<ProductsByGender />}/>
           <Route path="/Login" element={<Login />} /> 
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/ProductDetails" element={<ProductDetails />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
         </Routes>
       </Router>
       

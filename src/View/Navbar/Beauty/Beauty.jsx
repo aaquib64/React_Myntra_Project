@@ -7,7 +7,7 @@ const Beauty = () => {
     <div>
       <li className="nav-item">
         <Link
-          to="/getAllRestaurantByGender/Beauty"
+          to="/productByGender/Beauty"
           className="nav-link active fw-bold text-small"
           aria-current="page"
         >
