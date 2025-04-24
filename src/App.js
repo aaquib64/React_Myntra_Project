@@ -16,8 +16,8 @@ function App() {
       <Router>
         {/* <Restaurants/> */}
         {/* <RestaurantById/> */}
-       <Navbar/>
-     
+        <Navbar />
+
         <Routes>
         <Route path="/Home" element={<Home/>} />
           <Route path="/products" element={<Products />} />
@@ -28,13 +28,13 @@ function App() {
           <Route path="/product/:id" element={<ProductDetails />} />
         </Routes>
       </Router>
-      
+
       {/* <UseEffect/> */}
       {/* <Counter4/> */}
       {/* <Restro/> */}
       {/* <Counter2/> */}
       {/* <NewsAPI/> */}
-       {/* <Title2/> */}
+      {/* <Title2/> */}
       {/* <Title2/>  */}
       {/* <TodoAxios /> */}
       {/* <TodoList/> */}
@@ -44,7 +44,7 @@ function App() {
       {/* <Router>
       
         <Navbar /> */}
-        {/* <ul>
+      {/* <ul>
             <button type="button">
               <li>
                
@@ -64,7 +64,7 @@ function App() {
               </li>
             </button>
           </ul> */}
-        {/* <Routes>
+      {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/MenProducts" element={<MenProducts />} />
           <Route path="/WomenProduct" element={<WomenProduct />} />
@@ -73,27 +73,23 @@ function App() {
           <Route path="/BeautyProduct" element={<BeautyProduct />} />
           <Route path="/Login" element={<Login />} /> 
           <Route path="/Signup" element={<Signup />} /> */}
-          
-          
-          {/* <Router>
+
+      {/* <Router>
           
             <Product/>
             <TempComp/>
             
           <Routes>
           <Route path="/Customer/:id/:name" element={<Customer />} /> */}
-          {/* dynamic route placeholder "id:" replaced by value in url */}
-          {/* <Route path="/Product" element={<Product />} />
+      {/* dynamic route placeholder "id:" replaced by value in url */}
+      {/* <Route path="/Product" element={<Product />} />
             <Route path="/Product/:id" element={<TempComp />} />
             <Route path="*" element={<NotFound />} /> 
           </Routes>
           </Router> */}
-        {/* </Routes>
+      {/* </Routes>
       </Router> */}
     </div>
-   
-    
-    
   );
 }
 export default App;

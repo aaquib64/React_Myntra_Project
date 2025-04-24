@@ -11,6 +11,7 @@ const ProductByGender = () => {
 
   useEffect(() => {
     axios
+
       .get(`https://myntra-server-b529.onrender.com/productByGender/${gender}`)
       .then((response) => {
         console.log("API Response:", response.data); // Debugging
