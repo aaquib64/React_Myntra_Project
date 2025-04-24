@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div>
       
-        <Link to="/Home" class="navbar-brand" href="#">
+        <Link to="/" class="navbar-brand" href="#">
           <img
             src="https://www.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_.png"
             alt="Bootstrap"

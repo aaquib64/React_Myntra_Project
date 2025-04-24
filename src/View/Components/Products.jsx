@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
 const Restaurants = () => {
   const [products, setProducts] = useState([]);
@@ -60,13 +59,12 @@ const Restaurants = () => {
                     {prod.description}
                   </p> */}
                   <p className="fw-bold text-primary text-center">
-                    ${prod.price}
+                    {prod.price}
                   </p>
 
                   <button className="btn btn-danger mt-auto btn-sm">
                     SHOP NOW
                   </button>
-                  <Link to="/"></Link>
                 </div>
               </div>
             </div>

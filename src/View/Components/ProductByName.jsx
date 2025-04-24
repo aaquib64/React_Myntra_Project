@@ -27,7 +27,7 @@ const Restaurants = () => {
         setError(error.message);
         setLoading(false);
       });
-  }, [names]); // put id or city in array
+  }, [names,gender]); // put id or city in array
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,12 +9,13 @@ function Footer() {
         <div className="container-1">
           <h5 className='heading'>ONLINE SHOPPING</h5>
           <ul className="list">
-            <li>HOME</li>
-            <li>MEN</li>
-            <li>WOMEN</li>
-            <li>KIDS</li>
-            <li>HOME & LIVING</li>
-            <li>BEAUTY</li>
+            <li> <Link to="/Home"> HOME </Link></li>
+            <li> <Link to="/productByGender/Men"> MEN </Link></li>
+            <li> <Link to="/productByGender/Women"> WOMEN </Link></li>
+            <li> <Link to="/productByGender/Kids"> KIDS </Link></li>
+            <li> <Link to="/productByGender/Unisex"> HOME & LIVING </Link></li>
+            <li> <Link to="/productByGender/Beauty">BEAUTY </Link></li>
+            
           </ul>
         </div>
 
