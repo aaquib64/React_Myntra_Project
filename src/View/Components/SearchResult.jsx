@@ -1,38 +1,51 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PaginationControls from "../Components/PaginationControls"
 
-const ProductsByName = () => {
-  const { category } = useParams();
-  const { gender } = useParams();
+const SearchResult = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const { gender, category } = useParams(); // Get gender and category from URL params
+   console.log(" gender, category -->>>", gender, category );
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+   const [loading, setLoading] = useState(true);
     const [page, setPage] = useState(1);
-    const productsPerPage = 4;
-    const totalPages = Math.ceil(products.length / productsPerPage);
+     const productsPerPage = 4;
+     const totalPages = Math.ceil(products.length / productsPerPage);
+    
 
+  // Fetch products based on gender or category
   useEffect(() => {
-    axios
-      .get(`https://trendify-server-gb90.onrender.com/shop/${gender}/${category}`)                // http://localhost:5700
-      .then((response) => {
-        console.log("API Response:", response.data); // Debugging
-        if (response.data.AllProducts && Array.isArray(response.data.AllProducts)) {
-          setProducts(response.data.AllProducts);
-        } else {
-          console.error("Unexpected API response:", response.data);
-          setProducts([]); // Fallback to an empty array
+    const fetchProducts = async () => {
+      try {
+        let url = "";
+
+        if (gender) {
+          // Fetch products by city
+          url = `https://trendify-server-gb90.onrender.com/shop/${gender}`;
+        } else if (category) {
+          // Fetch restaurants by category
+          url = `https://trendify-server-gb90.onrender.com/shop/${gender}/${category}`;
+        }
+
+        if (url) {
+          const response = await axios.get(url);
+          console.log("Response data:", response.data);
+          setProducts(response.data.products || []); // Assuming the list is under AllProducts
         }
         setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-        setError(error.message);
-        setLoading(false);
-      });
-  }, [gender,category]); // put id or city in array
+      } catch (err) {
+        setError("Failed to fetch products.");
+      }
+    };
+
+    if (gender || category) {
+        fetchProducts();
+    }
+  }, [gender, category]);
 
   const handleNext = () => setPage((prev) => Math.min(prev + 1, totalPages));
   const handlePrev = () => setPage((prev) => Math.max(prev - 1, 1));
@@ -58,11 +71,11 @@ const currentProducts = products.slice(startIndex, startIndex + productsPerPage)
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="container mt-5">
-      {" "}
-      {/* Adds margin from the top */}
-      {Array.isArray(currentProducts) && currentProducts.length > 0 ? (
-        <div>
+     <div className="container mt-5">
+          {" "}
+          {/* Adds margin from the top */}
+          {Array.isArray(currentProducts) && currentProducts.length > 0 ? (
+            <div>
             <div className="row px-3">
               {" "}
               {/* Adds padding on both sides */}
@@ -81,19 +94,20 @@ const currentProducts = products.slice(startIndex, startIndex + productsPerPage)
                     <div className="card-body d-flex flex-column p-2 text-center">
                       <h5 className="card-title text-center">{prod.name}</h5>
                       <h6 className="text-muted text-center">{prod.brand}</h6>
-
+    
                       <p className="fw-bold text-primary text-center">
-                      ₹{prod.price}
+                      ₹ {prod.price}
                       </p>
                       <Link to={`/products/${prod.id}`}>
                       <button className="btn btn-danger btn-sm">
-                        SHOP NOW</button>
+                         SHOP NOW</button>
                       </Link>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
+
             {/* Pagination Controls */}
             <PaginationControls
                 page={page}
@@ -101,14 +115,12 @@ const currentProducts = products.slice(startIndex, startIndex + productsPerPage)
                 onNext={handleNext}
                 onPrev={handlePrev}
               />
+              </div>
+          ) : (
+            <p>No products found.</p>
+          )}
         </div>
-        
-      ) : (
-        <p>No products found.</p>
-      )}
-    </div>    
   );
-};
+}
 
-export default ProductsByName;
-
+export default SearchResult;

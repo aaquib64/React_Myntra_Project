@@ -7,6 +7,7 @@ const RestaurantDetails = () => {
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [selectedColor, setSelectedColor] = useState("");
   const [error, setError] = useState(null);
   const [newReview, setNewReview] = useState({
     username: "",
@@ -16,12 +17,12 @@ const RestaurantDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`https://myntra-server-b529.onrender.com/products/${id}`)
+      .get(`https://trendify-server-gb90.onrender.com/products/${id}`)
       .then((response) => {
         console.log("API Response:", response.data);
-        console.log(" Response:", response.data.products);
+        console.log(" Response:", response.data.Products);
 
-        setProduct(response.data.product);
+        setProduct(response.data.Product);
         setLoading(false);
       })
       .catch((error) => {
@@ -39,8 +40,22 @@ const RestaurantDetails = () => {
     }
   };
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>{error}</p>;
+  if (loading) return (
+    <div
+      className="d-flex justify-content-center align-items-center"
+      style={{ height: '100vh' }}
+    >
+      <div
+        className="spinner-border text-danger"
+        style={{ width: '3rem', height: '3rem' }}
+        role="status"
+      >
+        <span className="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  );
+  
+  if (error) return <p>Error: {error}</p>;
 
   const averageRating = product.reviews?.length
     ? (
@@ -50,7 +65,7 @@ const RestaurantDetails = () => {
     : "No Ratings Yet";
 
   return (
-    <div>
+    <div >
       {/* Go Back Button */}
       <div className="container my-3">
         <button onClick={() => navigate(-1)} className="btn btn-danger">
@@ -59,27 +74,52 @@ const RestaurantDetails = () => {
       </div>
 
       {/* Product Details Section */}
-      <div className="container my-3">
+      <div className="container my-4">
         <div className="row">
           {/* Product Image */}
           <div className="col-lg-4 col-md-12 mb-4">
             <img
               src={product.image}
               alt="Product"
-              className="img-fluid rounded shadow-sm"
+              className="img-fluid rounded shadow-sm image"
             />
           </div>
 
           {/* Product Info */}
           <div className="col-lg-4 col-md-12">
-            <h2 className="fw-bold">{product.names}</h2>
-            <p className="text-muted">
-              Brand: <strong>{product.brand}</strong>
-            </p>
+            <h2 className="fw-bold">{product.brand}</h2>
+            <h4 className="text-muted">
+               <strong>{product.name}</strong>
+            </h4>
+            <p className="average-rating">⭐ {averageRating} / 5</p>
             <p className="lead">
-              <span className="text-success fw-bold">{product.price}</span>
+              <span className="text-success fw-bold">₹{product.price}</span>
             </p>
-            <p className="mt-3">{product.description}</p>
+
+            {/* Product color*/}
+            <div className="mb-3">
+              <label htmlFor="color" className="form-label">
+                Color:
+              </label>
+              <select
+                id="color"
+                className="form-select w-50"
+                value={selectedColor}
+                onChange={(e) => setSelectedColor(e.target.value)}
+              >
+                <option disabled value="">
+                  Choose a color
+                </option>
+                {product.color?.map((clr, idx) => (
+                  <option key={idx} value={clr}>
+                    {clr}
+                  </option>
+                ))}
+              </select>
+            </div>
+            
+            <strong className="text-muted">Product Details:</strong>
+            <p className=" "> {product.description}</p>
 
             {/* Size Selection */}
             <div className="mb-3">
@@ -113,6 +153,7 @@ const RestaurantDetails = () => {
             {/* <button className="btn btn-outline-secondary">Wishlist</button> */}
           </div>
         </div>
+        <hr></hr>
 
         {/* Average Rating */}
         <div className="my-4 d-flex flex-column align-items-center mb-5">

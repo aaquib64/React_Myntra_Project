@@ -9,7 +9,6 @@ import Footer from "./Footer/Footer";
 function Home() {
   return (
     <div>
-       
         <Coupon/>
         <SlidingCard/>
         <LongCard/>

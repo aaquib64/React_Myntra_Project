@@ -9,12 +9,12 @@ function Footer() {
         <div className="container-1">
           <h5 className='heading'>ONLINE SHOPPING</h5>
           <ul className="list">
-            <li> <Link to="/Home"> HOME </Link></li>
-            <li> <Link to="/productByGender/Men"> MEN </Link></li>
-            <li> <Link to="/productByGender/Women"> WOMEN </Link></li>
-            <li> <Link to="/productByGender/Kids"> KIDS </Link></li>
-            <li> <Link to="/productByGender/Unisex"> HOME & LIVING </Link></li>
-            <li> <Link to="/productByGender/Beauty">BEAUTY </Link></li>
+            <li > <Link to="/" className='list-li'> HOME </Link></li>
+            <li> <Link to="/shop/Men" className='list-li'> MEN </Link></li>
+            <li> <Link to="/shop/Women" className='list-li'> WOMEN </Link></li>
+            <li> <Link to="/shop/Kids" className='list-li'> KIDS </Link></li>
+            <li> <Link to="/shop/Unisex" className='list-li'> HOME & LIVING </Link></li>
+            <li> <Link to="/shop/Beauty" className='list-li'>BEAUTY </Link></li>
             
           </ul>
         </div>

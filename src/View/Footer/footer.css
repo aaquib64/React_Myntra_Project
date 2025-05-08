@@ -32,25 +32,16 @@
     list-style: none;
     padding: 0;
     margin: 0;
+        
 }
 
-.list li {
-    font-size: 14px;
-    margin: 6px 0;
-    cursor: pointer;
-    transition: color 0.3s ease;
+.list-li {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Optional: makes link color match surrounding text */
 }
 
-.list li:hover {
-    color: #ff6600;
-}
-
-/* Play Store & App Store Buttons */
-.button-container {
-    margin-top: 12px;
-    display: flex;
-    gap: 12px;
-    align-items: center;
+.list-li:hover {
+    text-decoration: none; /* Ensures no underline on hover */
 }
 
 .store-btn {
@@ -58,6 +49,7 @@
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    margin: auto;
 }
 
 .store-btn:hover {

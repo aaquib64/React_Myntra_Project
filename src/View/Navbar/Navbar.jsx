@@ -1,5 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../Context/AuthContext";
+import axios from "axios";
 import "./Navbar.css";
 import Logo from "./Logo/Logo";
 import Men from "./Men/Men";
@@ -9,6 +11,55 @@ import HomeAndLiving from "./HomeAndLiving/HomeAndLiving";
 import Beauty from "./Beauty/Beauty";
 
 let Navbar = () => {
+  const { user, logout } = useContext(AuthContext);
+  const [searchGender, setSearchGender] = useState("");
+  const [selectedGender, setSelectedGender] = useState("");
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const navigate = useNavigate();
+
+  const handleSearch = async (e) => {
+    const value = e.target.value.trim();
+    setSearchGender(value);
+  
+    if (value.length >= 3) { // You can reduce this to 1 if needed
+      try {
+        const response = await axios.get(`https://trendify-server-gb90.onrender.com/shop/${value}`);
+        console.log("Live search response:", response.data);
+        setProducts(response.data);
+        navigate(`/products/gender/${value}`);
+      } catch (err) {
+        setError("Failed to fetch products.");
+      }
+    }
+  };
+
+  // const handleSearch = async (e) => {
+  //   e.preventDefault();
+
+  //   if (!searchGender && !selectedGender) {
+  //     setError("Please select or enter a gender");
+  //     return;
+  //   }
+
+  //   setLoading(true);
+  //   setError(null);
+  //   const gender = searchGender || selectedGender; // Use either the entered gender or selected gender
+
+  //   try {
+  //     const response = await axios.get(`http://localhost:5700/shop/${gender}`);
+  //     console.log("response-->>>>",response);
+  //     setProducts(response.data); // Assuming the response contains the list of products
+  //     // Navigate to the results page with the city as a query parameter
+  //     navigate(`/products/gender/${gender}`);
+  //   } catch (err) {
+  //     setError("Failed to fetch products.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
   return (
     <div className="sticky-top">
       <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
@@ -33,7 +84,9 @@ let Navbar = () => {
               <HomeAndLiving />
               <Beauty />
             </ul>
-            <form className="d-flex align-items-center w-50" role="search">
+
+            <form  className="d-flex align-items-center w-50" role="search">
+              
               <div className="input-group flex-grow-1">
                 <span
                   className="input-group-text bg-white border-end-0"
@@ -56,15 +109,27 @@ let Navbar = () => {
                   placeholder="Search for product, brand, and more"
                   aria-label="Search"
                   aria-describedby="basic-addon1"
+                  onChange={ handleSearch}
                 />
               </div>
 
-              <Link to="/login" className="btn btn-danger ms-3" role="button">
+              {user ? (
+          <>
+            <span className="btn  ms-3"><img src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3BmLWljb240LWppcjIwNjQtcG9yLWwtam9iNzg4LnBuZw.png" alt="" width={25} /> {user.name}</span>
+            <button className="btn btn-danger ms-2" onClick={logout}>Logout</button>
+          </>
+        ) : (
+          <>
+            <Link to="/login" className="btn btn-danger ms-3" role="button">
                 Login
               </Link>
               <Link to="/signup" className="btn btn-danger ms-2" role="button">
                 Signup
               </Link>
+          </>
+        )}
+
+             
             </form>
           </div>
         </div>
